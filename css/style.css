@@ -1,1 +1,30 @@
 @import url(./bootstrap.css);
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  #weather, #humidity, #pressure {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  #submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #submit:hover {
+    background-color: blue;
+  }
+  #city {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
